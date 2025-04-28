@@ -1,0 +1,34 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>150</x><y>220</y><w>210</w><h>190</h></coordinates><panel_attributes>User
+--
+- userId: int
+
+- username: string
+
+- password: string
+
+--
++ register()
+
++ login()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>440</x><y>220</y><w>210</w><h>190</h></coordinates><panel_attributes>Task
+--
+- taskId: int
+
+- title: string
+
+- description: string
+
+/- isCompleted: bool/
+
+- createDate: datetime
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>720</x><y>220</y><w>210</w><h>190</h></coordinates><panel_attributes>TaskManager
+--
+- tasks: List
+
+--
++ createTask()
+
+/+ deleteTask()/
+
++ getTasks()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>350</x><y>310</y><w>110</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>90;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>640</x><y>310</y><w>100</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;80;10</additional_attributes></element></diagram>
