@@ -4,3 +4,4 @@ Grupa wykonująca: Konrad Wierzbicki, Rafał Złotkowski, Michał Truszkowski
 2. Zajęcia 28.04.2025
    - Dodano diagram klas w plikach .png i .uxf
    -  Dodano diagram sekwencji w plikach .png i .uxf
+   -  Dodano diagram czynności w plikach .png i .uxf
